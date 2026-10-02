@@ -1,9 +1,0 @@
-C:\Users\Riccardo Nuncibello\Desktop\10RailWay_15\10RailWay_15\bin\Debug\10RailWay_15.exe
-C:\Users\Riccardo Nuncibello\Desktop\10RailWay_15\10RailWay_15\bin\Debug\10RailWay_15.pdb
-C:\Users\Riccardo Nuncibello\Desktop\10RailWay_15\10RailWay_15\obj\x86\Debug\_10RailWay_15.Properties.Resources.resources
-C:\Users\Riccardo Nuncibello\Desktop\10RailWay_15\10RailWay_15\obj\x86\Debug\_10RailWay_15.TrPnl.resources
-C:\Users\Riccardo Nuncibello\Desktop\10RailWay_15\10RailWay_15\obj\x86\Debug\10RailWay_15.csproj.GenerateResource.Cache
-C:\Users\Riccardo Nuncibello\Desktop\10RailWay_15\10RailWay_15\obj\x86\Debug\10RailWay_15.exe
-C:\Users\Riccardo Nuncibello\Desktop\10RailWay_15\10RailWay_15\obj\x86\Debug\10RailWay_15.pdb
-C:\Users\Riccardo Nuncibello\Desktop\10RailWay_15\10RailWay_15\obj\x86\Debug\_10RailWay_15.Form1.resources
-C:\Users\Riccardo Nuncibello\Desktop\10RailWay_15\10RailWay_15\obj\x86\Debug\10RailWay_15.csprojResolveAssemblyReference.cache

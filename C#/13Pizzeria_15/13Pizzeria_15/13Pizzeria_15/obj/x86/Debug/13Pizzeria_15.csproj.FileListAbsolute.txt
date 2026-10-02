@@ -1,8 +1,0 @@
-C:\Users\Riccardo Nuncibello\Desktop\13Pizzeria_15\13Pizzeria_15\bin\Debug\13Pizzeria_15.exe
-C:\Users\Riccardo Nuncibello\Desktop\13Pizzeria_15\13Pizzeria_15\bin\Debug\13Pizzeria_15.pdb
-C:\Users\Riccardo Nuncibello\Desktop\13Pizzeria_15\13Pizzeria_15\obj\x86\Debug\_13Pizzeria_15.MainForm.resources
-C:\Users\Riccardo Nuncibello\Desktop\13Pizzeria_15\13Pizzeria_15\obj\x86\Debug\_13Pizzeria_15.Properties.Resources.resources
-C:\Users\Riccardo Nuncibello\Desktop\13Pizzeria_15\13Pizzeria_15\obj\x86\Debug\13Pizzeria_15.csproj.GenerateResource.Cache
-C:\Users\Riccardo Nuncibello\Desktop\13Pizzeria_15\13Pizzeria_15\obj\x86\Debug\13Pizzeria_15.exe
-C:\Users\Riccardo Nuncibello\Desktop\13Pizzeria_15\13Pizzeria_15\obj\x86\Debug\13Pizzeria_15.pdb
-C:\Users\Riccardo Nuncibello\Desktop\13Pizzeria_15\13Pizzeria_15\obj\x86\Debug\13Pizzeria_15.csprojResolveAssemblyReference.cache

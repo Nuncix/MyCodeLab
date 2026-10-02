@@ -1,7 +1,0 @@
-C:\Users\ricca\OneDrive\Documenti\Visual Studio 2010\Projects\02R_EliminaCode_15\02R_EliminaCode_15\bin\Release\02R_EliminaCode_15.exe
-C:\Users\ricca\OneDrive\Documenti\Visual Studio 2010\Projects\02R_EliminaCode_15\02R_EliminaCode_15\bin\Release\02R_EliminaCode_15.pdb
-C:\Users\ricca\OneDrive\Documenti\Visual Studio 2010\Projects\02R_EliminaCode_15\02R_EliminaCode_15\obj\x86\Release\_02R_EliminaCode_15.Form1.resources
-C:\Users\ricca\OneDrive\Documenti\Visual Studio 2010\Projects\02R_EliminaCode_15\02R_EliminaCode_15\obj\x86\Release\_02R_EliminaCode_15.Properties.Resources.resources
-C:\Users\ricca\OneDrive\Documenti\Visual Studio 2010\Projects\02R_EliminaCode_15\02R_EliminaCode_15\obj\x86\Release\02R_EliminaCode_15.csproj.GenerateResource.Cache
-C:\Users\ricca\OneDrive\Documenti\Visual Studio 2010\Projects\02R_EliminaCode_15\02R_EliminaCode_15\obj\x86\Release\02R_EliminaCode_15.exe
-C:\Users\ricca\OneDrive\Documenti\Visual Studio 2010\Projects\02R_EliminaCode_15\02R_EliminaCode_15\obj\x86\Release\02R_EliminaCode_15.pdb

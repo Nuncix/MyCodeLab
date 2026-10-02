@@ -1,35 +1,38 @@
 <html>
-  <head>
-    <title>Esercizio</title>
-    <script>
-      var nome = prompt("inserisci citta':");
-    </script>
-  </head>
-  <body>
-    <h1>Il metodo prompt</h1>
-    <p>
-      Il metodo prompt apre una finestra di dialogo con un campo di testo
-      all'interno del quale l'utente puo' inserire del contenuto. Se l'utente
-      clicca su OK il metodo prompt restituisce il valore inserito, in caso
-      contrario restituisce null.
-    </p>
 
-    <script>
-      document.write("<p>Abiti a: " + nome + "</p>");
-    </script>
+<head>
+  <title>Esercizio</title>
+  <script>
+    var nome = prompt("inserisci citta':");
+  </script>
+</head>
 
-    <h1>Il metodo Alert</h1>
-    <p>
-      il metodo alert e' possibile creare delle finestre di avviso (alert box)
-      al cui interno inserire messaggi personalizzati. L'unica facolta' concessa
-      all'utente e' di cliccare sul pulsante OK per chiudere la finestra.
-    </p>
+<body>
+  <h1>Il metodo prompt</h1>
+  <p>
+    Il metodo prompt apre una finestra di dialogo con un campo di testo
+    all'interno del quale l'utente puo' inserire del contenuto. Se l'utente
+    clicca su OK il metodo prompt restituisce il valore inserito, in caso
+    contrario restituisce null.
+  </p>
 
-    <script>
-      function copyright() {
-        alert("Mongolfiere in volo\nAutore: Mario Rossi");
-      }
-    </script>
-    <img src="picture/foto.png" onclick="copyright()" />
-  </body>
+  <script>
+    document.write("<p>Abiti a: " + nome + "</p>");
+  </script>
+
+  <h1>Il metodo Alert</h1>
+  <p>
+    il metodo alert e' possibile creare delle finestre di avviso (alert box)
+    al cui interno inserire messaggi personalizzati. L'unica facolta' concessa
+    all'utente e' di cliccare sul pulsante OK per chiudere la finestra.
+  </p>
+
+  <script>
+    function copyright() {
+      alert("Mongolfiere in volo\nAutore: Mario Rossi");
+    }
+  </script>
+  <img src="picture/foto.png" onclick="copyright()" />
+</body>
+
 </html>

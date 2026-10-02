@@ -1,84 +1,86 @@
 <html>
-  <head>
-    <title>Media dei voti.</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <h1>Media dei voti</h1>
-    <table style="background-color: rgb(52, 76, 142)" id="table">
-      <tr>
-        <th style="border: 0cm">Nome</th>
-        <th style="border: 0cm"><input type="text" id="name" /></th>
-      </tr>
-      <th style="border: 0cm">Cognome</th>
-      <th style="border: 0cm"><input type="text" id="surname" /></th>
-      <tr>
-        <th>Materia</th>
-        <th>Valutazione</th>
-      </tr>
-      <tr>
-        <td>Italiano</td>
-        <td><input type="number" id="ita" min="0" max="10" /></td>
-      </tr>
-      <tr>
-        <td>Storia</td>
-        <td><input type="number" id="sto" min="0" max="10" /></td>
-      </tr>
-      <tr>
-        <td>Matematica</td>
-        <td><input type="number" id="mat" min="0" max="10" /></td>
-      </tr>
-      <tr>
-        <td>Inglese</td>
-        <td><input type="number" id="ing" min="0" max="10" /></td>
-      </tr>
-    </table>
-    <br />
+<head>
+  <title>Media dei voti.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <input type="button" id="insert" onclick="esito()" value="Calcola esito" />
-    <br />
+<body>
+  <h1>Media dei voti</h1>
+  <table style="background-color: rgb(52, 76, 142)" id="table">
+    <tr>
+      <th style="border: 0cm">Nome</th>
+      <th style="border: 0cm"><input type="text" id="name" /></th>
+    </tr>
+    <th style="border: 0cm">Cognome</th>
+    <th style="border: 0cm"><input type="text" id="surname" /></th>
+    <tr>
+      <th>Materia</th>
+      <th>Valutazione</th>
+    </tr>
+    <tr>
+      <td>Italiano</td>
+      <td><input type="number" id="ita" min="0" max="10" /></td>
+    </tr>
+    <tr>
+      <td>Storia</td>
+      <td><input type="number" id="sto" min="0" max="10" /></td>
+    </tr>
+    <tr>
+      <td>Matematica</td>
+      <td><input type="number" id="mat" min="0" max="10" /></td>
+    </tr>
+    <tr>
+      <td>Inglese</td>
+      <td><input type="number" id="ing" min="0" max="10" /></td>
+    </tr>
+  </table>
+  <br />
 
-    <b id="output"></b>
-    <br />
+  <input type="button" id="insert" onclick="esito()" value="Calcola esito" />
+  <br />
 
-    <script>
-      function esito() {
-        var name = document.getElementById("name").value;
-        var surname = document.getElementById("surname").value;
+  <b id="output"></b>
+  <br />
 
-        var ita = parseInt(document.getElementById("ita").value);
-        var mat = parseInt(document.getElementById("mat").value);
-        var sto = parseInt(document.getElementById("sto").value);
-        var ing = parseInt(document.getElementById("ing").value);
+  <script>
+    function esito() {
+      var name = document.getElementById("name").value;
+      var surname = document.getElementById("surname").value;
 
-        if (
-          name != "" &&
-          surname != "" &&
-          ita >= 0 &&
-          ita < 11 &&
-          mat >= 0 &&
-          mat < 11 &&
-          sto >= 0 &&
-          sto < 11 &&
-          ing >= 0 &&
-          ing < 11
-        ) {
-          var media = (ita + mat + sto + ing) / 4;
+      var ita = parseInt(document.getElementById("ita").value);
+      var mat = parseInt(document.getElementById("mat").value);
+      var sto = parseInt(document.getElementById("sto").value);
+      var ing = parseInt(document.getElementById("ing").value);
 
-          if (media >= 6) var esito = "Promosso";
-          else var esito = "Bocciato";
+      if (
+        name != "" &&
+        surname != "" &&
+        ita >= 0 &&
+        ita < 11 &&
+        mat >= 0 &&
+        mat < 11 &&
+        sto >= 0 &&
+        sto < 11 &&
+        ing >= 0 &&
+        ing < 11
+      ) {
+        var media = (ita + mat + sto + ing) / 4;
 
-          document.getElementById("output").innerHTML =
-            name +
-            " " +
-            surname +
-            "<br>Media dei voti: " +
-            media +
-            "<br>Esito: " +
-            esito;
-        } else document.getElementById("output").innerHTML = "Errore";
-      }
-    </script>
-  </body>
+        if (media >= 6) var esito = "Promosso";
+        else var esito = "Bocciato";
+
+        document.getElementById("output").innerHTML =
+          name +
+          " " +
+          surname +
+          "<br>Media dei voti: " +
+          media +
+          "<br>Esito: " +
+          esito;
+      } else document.getElementById("output").innerHTML = "Errore";
+    }
+  </script>
+</body>
+
 </html>

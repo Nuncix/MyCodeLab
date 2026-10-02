@@ -1,61 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Convertitore Temperatura</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <h2>Convertitore</h2>
-    <p>Fahrenheit a Celsius</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Convertitore Temperatura</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <p>
-      <label>Fahrenheit</label>
-      <input
-        id="F"
-        type="number"
-        value="Fahrenheit"
-        oninput="c(this.value)"
-        onchange="c(this.value)"
-      />
-    </p>
+<body>
+  <h2>Convertitore</h2>
+  <p>Fahrenheit a Celsius</p>
 
-    <p>Celcius: <span id="demo"> </span></p>
+  <p>
+    <label>Fahrenheit</label>
+    <input id="F" type="number" value="Fahrenheit" oninput="c(this.value)" onchange="c(this.value)" />
+  </p>
 
-    <script>
-      function c(fah) {
-        fah = parseFloat(fah);
-        document.getElementById("demo").innerHTML = (fah - 32) / 1.8;
-      }
-    </script>
+  <p>Celcius: <span id="demo"> </span></p>
 
-    <p>
-      _____________________________________________________________________________________________________________________________
-    </p>
+  <script>
+    function c(fah) {
+      fah = parseFloat(fah);
+      document.getElementById("demo").innerHTML = (fah - 32) / 1.8;
+    }
+  </script>
 
-    <p>Celsius a Fahrenheit</p>
+  <p>
+    _____________________________________________________________________________________________________________________________
+  </p>
 
-    <p>
-      <label>Celsius</label>
-      <input
-        id="C"
-        type="number"
-        value="Celsius"
-        oninput="d(this.value)"
-        onchange="d(this.value)"
-      />
-    </p>
+  <p>Celsius a Fahrenheit</p>
 
-    <p>Fahrenheit: <span id="a"> </span></p>
+  <p>
+    <label>Celsius</label>
+    <input id="C" type="number" value="Celsius" oninput="d(this.value)" onchange="d(this.value)" />
+  </p>
 
-    <script>
-      function d(cel) {
-        cel = parseFloat(cel);
-        document.getElementById("a").innerHTML = (cel * 9) / 5 + 32;
-      }
-    </script>
-  </body>
+  <p>Fahrenheit: <span id="a"> </span></p>
+
+  <script>
+    function d(cel) {
+      cel = parseFloat(cel);
+      document.getElementById("a").innerHTML = (cel * 9) / 5 + 32;
+    }
+  </script>
+</body>
+
 </html>

@@ -1,0 +1,117 @@
+# Build output shared by the projects in this repository
+[Bb]in/
+[Oo]bj/
+build/
+dist/
+out/
+target/
+coverage/
+
+# Compiled native, assembly and .NET artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.dSYM/
+a.out
+
+# Visual Studio and .NET user state, packages and test output
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+/C#/**/packages/
+
+# CMake-generated files (keep CMakeLists.txt and source Makefiles)
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Java / Maven / Gradle (keep wrapper files)
+*.class
+.gradle/
+.mvn/timing.properties
+/Java/**/dependency-reduced-pom.xml
+
+# JavaScript / TypeScript / Angular / Vite / Electron
+node_modules/
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnpm-store/
+.angular/cache/
+.vite/
+.cache/
+.parcel-cache/
+out-tsc/
+bazel-out/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dart / Flutter and generated platform dependencies
+.dart_tool/
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+/Dart/**/doc/api/
+/Dart/**/Flutter/ephemeral/
+/Dart/**/flutter/ephemeral/
+/Dart/**/ios/Flutter/.last_build_id
+/Dart/**/Pods/
+/Dart/**/.symlinks/
+/Dart/**/xcuserdata/
+/Dart/**/android/local.properties
+/Dart/**/android/app/debug/
+/Dart/**/android/app/profile/
+/Dart/**/android/app/release/
+/Dart/**/app.*.symbols
+/Dart/**/app.*.map.json
+
+# Rust / Tauri generated schemas
+/Rust/**/src-tauri/gen/schemas/
+
+# Local editor state (keep shared .vscode configuration)
+.idea/
+*.iml
+*.ipr
+*.iws
+.history/
+*.swp
+*.swo
+*~
+
+# Logs and operating-system metadata
+*.log
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Dependency lockfiles, project manifests and source assets stay versioned.

@@ -1,0 +1,57 @@
+.app-container {
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Ensure the sidebar remains fixed to the left */
+  .sidebar {
+    background-color: #f2f2f2;
+    width: 60px;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar.open {
+    width: 200px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    white-space: nowrap;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .toggle-drawer {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 1rem;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 0;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 1rem;
+  }

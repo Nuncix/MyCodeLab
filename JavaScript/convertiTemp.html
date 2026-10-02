@@ -1,45 +1,39 @@
 <html>
-  <head>
-    <title>Convertitore temperatura.</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <label>Temperatura in Celsius</label>
-    <br />
-    <input type="number" id="celsius" />
-    <br />
-    <input
-      type="button"
-      value="Converti in fahrenheit"
-      onclick="ConvertToFahrenheit()"
-    /><br />
-    <label>Temperatura in Fahrenheit</label>
-    <br />
-    <input type="number" id="fahrenheit" />
-    <br />
-    <input
-      type="button"
-      value="Converti in celsius"
-      onclick="ConvertToCelsius()"
-    /><br />
-  </body>
+<head>
+  <title>Convertitore temperatura.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-  <script>
-    function ConvertToFahrenheit() {
-      var celsius = parseInt(document.getElementById("celsius").value);
+<body>
+  <label>Temperatura in Celsius</label>
+  <br />
+  <input type="number" id="celsius" />
+  <br />
+  <input type="button" value="Converti in fahrenheit" onclick="ConvertToFahrenheit()" /><br />
+  <label>Temperatura in Fahrenheit</label>
+  <br />
+  <input type="number" id="fahrenheit" />
+  <br />
+  <input type="button" value="Converti in celsius" onclick="ConvertToCelsius()" /><br />
+</body>
 
-      var fahrenheit = (celsius * 9) / 5 + 32;
+<script>
+  function ConvertToFahrenheit() {
+    var celsius = parseInt(document.getElementById("celsius").value);
 
-      document.getElementById("fahrenheit").value = fahrenheit;
-    }
+    var fahrenheit = (celsius * 9) / 5 + 32;
 
-    function ConvertToCelsius() {
-      var fahrenheit = parseInt(document.getElementById("fahrenheit").value);
+    document.getElementById("fahrenheit").value = fahrenheit;
+  }
 
-      var celsius = ((fahrenheit - 32) * 5) / 9;
+  function ConvertToCelsius() {
+    var fahrenheit = parseInt(document.getElementById("fahrenheit").value);
 
-      document.getElementById("celsius").value = celsius;
-    }
-  </script>
+    var celsius = ((fahrenheit - 32) * 5) / 9;
+
+    document.getElementById("celsius").value = celsius;
+  }
+</script>
+
 </html>

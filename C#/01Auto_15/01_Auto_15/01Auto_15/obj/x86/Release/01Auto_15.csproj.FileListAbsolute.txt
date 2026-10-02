@@ -1,9 +1,0 @@
-C:\Users\ricca\OneDrive\Desktop\01_Auto_15\01_Auto_15\01Auto_15\bin\Release\01Auto_15.exe
-C:\Users\ricca\OneDrive\Desktop\01_Auto_15\01_Auto_15\01Auto_15\bin\Release\01Auto_15.pdb
-C:\Users\ricca\OneDrive\Desktop\01_Auto_15\01_Auto_15\01Auto_15\obj\x86\Release\01Auto_15.csprojAssemblyReference.cache
-C:\Users\ricca\OneDrive\Desktop\01_Auto_15\01_Auto_15\01Auto_15\obj\x86\Release\_01Auto_15.Form1.resources
-C:\Users\ricca\OneDrive\Desktop\01_Auto_15\01_Auto_15\01Auto_15\obj\x86\Release\_01Auto_15.Properties.Resources.resources
-C:\Users\ricca\OneDrive\Desktop\01_Auto_15\01_Auto_15\01Auto_15\obj\x86\Release\01Auto_15.csproj.GenerateResource.cache
-C:\Users\ricca\OneDrive\Desktop\01_Auto_15\01_Auto_15\01Auto_15\obj\x86\Release\01Auto_15.csproj.CoreCompileInputs.cache
-C:\Users\ricca\OneDrive\Desktop\01_Auto_15\01_Auto_15\01Auto_15\obj\x86\Release\01Auto_15.exe
-C:\Users\ricca\OneDrive\Desktop\01_Auto_15\01_Auto_15\01Auto_15\obj\x86\Release\01Auto_15.pdb
